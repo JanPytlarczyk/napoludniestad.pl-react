@@ -1,10 +1,18 @@
 import './App.scss';
-import "bootstrap/dist/css/bootstrap.min.css"
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Navbar from  './Components/Navbar'
+import SearchBox from './Components/SearchBox'
+import SocialMedia from './Components/SocialMedia';
 
 function App() {
   return (
-   <h1> Message </h1>
+    <>
+   <Navbar />
+   <SearchBox />
+   <SocialMedia />
+   </>
   );
+  
 }
 
 export default App;
